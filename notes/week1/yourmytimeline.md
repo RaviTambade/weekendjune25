@@ -35,9 +35,9 @@ Used **real-world blockers as learning opportunities**.
 
 As a mentor, I always recommend:
 
-> ✅ Learn one full backend stack: Java + Spring Boot OR .NET + ASP.NET Core
-> ✅ Practice building 2–3 small end-to-end modules (REST API + DB + Unit Tests)
-> ✅ Understand where your current testing fits in the **architecture**
+* ✅ Learn one full backend stack: Java + Spring Boot OR .NET + ASP.NET Core
+* ✅ Practice building 2–3 small end-to-end modules (REST API + DB + Unit Tests)
+* ✅ Understand where your current testing fits in the **architecture**
 
 
 ### 🌱 **Phase 3: Encouragement is Fuel, But Action is Yours**
