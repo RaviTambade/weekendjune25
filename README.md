@@ -115,3 +115,4 @@
 
 > *"You’re not switching careers—you’re expanding your impact. You’ve tested other people’s code long enough. Now, let’s build something of your own. From the right side of the V to the left. From QA to Full Stack. This is your journey, and Transflower is here to accelerate it."*
 
+<a href="https://github.com/RaviTambade/weekendjune25/blob/main/vmodel.md">Let us get started ...</a>
