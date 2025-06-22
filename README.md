@@ -3,7 +3,7 @@
 <hr/>
 
 * **Title:** *“From Testing to Building: Accelerate Your Developer Journey”*
-* **Format:** Weekend Workshop (Saturdays & Sundays)
+* **Format:** Weekend Workshop (Saturdays & Sundays 4 hours/day)
 * **Duration:** 12 Weeks (3 Months)
 * **Cost:** 12500 Rs.
 * **Target Audience:** Working professionals from Software Testing background
