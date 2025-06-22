@@ -1,5 +1,5 @@
 
-### 🧭From Tester to Developer – The Journey of Building Meaning**
+### 🧭From Tester to Developer – The Journey of Building Meaning
 
 > *"Mrunal, Shilpa, and all of you stepping forward from testing into development… let’s begin with a small but powerful realization – we are not just writing code; we are building logic that makes lives easier, faster, and better."*
 
