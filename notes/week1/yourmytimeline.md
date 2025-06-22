@@ -2,7 +2,7 @@
 ## From Tester to Developer – You Can Make It Too!
 
 **Session Theme:** *"Every Tester has the potential to be a Developer with the right mindset, learning path, and mentorship."*
-\*\*By Ravi Tambade – Transflower Mentor \
+> By Ravi Tambade – Transflower Mentor
 
 👋 **Hi everyone,**
 Today I want to speak directly to all of you who are working as testers – manual, automation, QA, or even interns who feel boxed into the "testing" tag. I’ve seen this journey up close – and today, I want to walk you through a **real story** that reflects the power of perseverance, focus, and learning.
@@ -138,9 +138,9 @@ Here’s what I want you to take away from this:
 
 ### 🧘 **Final Mentor Note – The 3Fs**
 
-> 🔥 **Focus** on your tech stack
-> 💪 **Fight** your doubts with action
-> 🙏 **Faith** in your path, your process, and your progress
+* 🔥 **Focus** on your tech stack
+* 💪 **Fight** your doubts with action
+* 🙏 **Faith** in your path, your process, and your progress
 
 The transition from testing to development isn’t a shortcut.
 It’s a well-designed detour. You’re just taking the scenic route – and that’s okay.
