@@ -2,14 +2,14 @@
 
 <hr/>
 
-**Title:** *“From Testing to Building: Accelerate Your Developer Journey”*
-**Format:** Weekend Workshop (Saturdays & Sundays)
-**Duration:** 12 Weeks (3 Months)
-**Cost:** 12500 Rs.
-**Target Audience:** Working professionals from Software Testing background
-**Goal:** Prepare participants for a Full-Stack Software Development role
-**Mentor-led, Project-based, Career-focused**
-**Mentor:Ravi Tambade**
+* **Title:** *“From Testing to Building: Accelerate Your Developer Journey”*
+* **Format:** Weekend Workshop (Saturdays & Sundays)
+* **Duration:** 12 Weeks (3 Months)
+* **Cost:** 12500 Rs.
+* **Target Audience:** Working professionals from Software Testing background
+* **Goal:** Prepare participants for a Full-Stack Software Development role
+* **Mentor-led, Project-based, Career-focused**
+* **Mentor:Ravi Tambade**
 
 
 ## 👨‍🏫 Mentor Storytelling Launch Message
