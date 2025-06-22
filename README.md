@@ -106,12 +106,12 @@
 
 ## 🧭 TAP Highlights
 
-✅ Weekend Sessions (Live + Hands-On)
-✅ 3 Capstone Projects
-✅ Resume + GitHub Portfolio Ready
-✅ Focus on Coding, Building, and Debugging
-✅ Mentorship from developers with QA backgrounds
-✅ Certificate of Completion + Project Demos
+* ✅ Weekend Sessions (Live + Hands-On)
+* ✅ 3 Capstone Projects
+* ✅ Resume + GitHub Portfolio Ready
+* ✅ Focus on Coding, Building, and Debugging
+* ✅ Mentorship from developers with QA backgrounds
+* ✅ Certificate of Completion + Project Demos
 
 ## 💬 Mentor Closing Message
 
