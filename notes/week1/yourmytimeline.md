@@ -1,4 +1,3 @@
-
 ## From Tester to Developer – You Can Make It Too!
 
 **Session Theme:** *"Every Tester has the potential to be a Developer with the right mindset, learning path, and mentorship."*

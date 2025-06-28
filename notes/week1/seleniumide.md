@@ -138,3 +138,109 @@ Choose one of:
       UserShoppingExperience.cs ← Exported C# Script
 ```
 
+Great! Let me guide you  on how to use **Selenium IDE** to test a website using a URL.
+
+###  Getting Started with Selenium IDE for Website Testing 
+
+Hi friends 👋,
+
+Let’s imagine you’ve been given the task:
+✅ **“Test the login functionality of a website using Selenium IDE.”**
+
+You don’t need to write complex code. Selenium IDE makes this super simple through a **record and playback** approach.
+
+Let me walk you through the exact steps — just like I do with my students during browser automation sessions.
+
+### 🛠️ Step-by-Step Guide: Testing Website Using Selenium IDE
+
+#### ✅ **Step 1: Install Selenium IDE**
+
+* Open **Google Chrome** or **Firefox** browser.
+* Go to Chrome Web Store or Firefox Add-ons:
+  🔗 [https://www.selenium.dev/selenium-ide/](https://www.selenium.dev/selenium-ide/)
+* Click **“Add to Chrome”** or **“Add to Firefox”**.
+
+> 💡 Once installed, you’ll see the Selenium IDE icon near your address bar.
+
+#### ✅ **Step 2: Launch Selenium IDE**
+
+* Click the Selenium IDE extension icon.
+* Choose **“Create a New Project”**.
+* Name your project (e.g. `LoginTestProject`).
+
+#### ✅ **Step 3: Record a Test Case**
+
+1. Click **“Record a new test in a new project.”**
+2. Name your test case (e.g. `LoginTestCase`).
+3. Enter the URL of the website you want to test.
+   Example: `https://example.com/login` or `https://www.amazon.in`
+4. Selenium IDE will launch that URL in a new tab and start recording your actions.
+
+#### ✅ **Step 4: Perform Actions to be Tested**
+
+While Selenium IDE is recording:
+
+* Type in username and password fields.
+* Click the **Login** button.
+* Navigate through the site as required.
+
+Each step will be captured — `type`, `click`, `open`, `assert`, etc.
+
+
+#### ✅ **Step 5: Stop Recording**
+
+* Go back to the Selenium IDE tab.
+* Click **“Stop recording”**.
+* You’ll now see a list of recorded steps.
+
+#### ✅ **Step 6: Run the Test Case**
+
+* Click the **▶️ (Play)** button to replay the test case.
+* Selenium IDE will open the URL and repeat all the recorded steps.
+* Watch it in action!
+
+### 🔍 Bonus Features You Can Use
+
+| Feature       | Description                                      |
+| ------------- | ------------------------------------------------ |
+| `assertText`  | Verify that a specific text appears after login. |
+| `storeValue`  | Save value from one field to reuse later.        |
+| `pause`       | Add wait between steps.                          |
+| `command log` | Debug if any step fails.                         |
+ 
+
+### 🧪 Mini Practice Challenge for You
+
+Try testing this login page:
+🔗 `https://practicetestautomation.com/practice-test-login/`
+
+* Username: `student`
+* Password: `Password123`
+
+👉 Record, login, and verify if “Logged In Successfully” appears.
+
+### 💡 Tips
+
+* Use `assertTitle` to check page title after login.
+* Use `assertText` to confirm user is logged in.
+* Add `pause` if page load is slow.
+* Save project and test cases for future reuse.
+### 📦 Export Test Case (Optional)
+
+You can **export your test** to code:
+
+* Click on test case name → Export
+* Choose **Java + JUnit**, **Python + pytest**, etc.
+
+Useful for converting to **real Selenium WebDriver code**.
+ 
+### ✅ Conclusion
+
+Selenium IDE is your **first step in automation testing**. You don’t need to know programming at the start. Just:
+
+1. Record.
+2. Replay.
+3. Add assertions.
+4. Share/export test.
+
+Once you're comfortable, you can move to **Selenium WebDriver** using Python, Java, or C#.

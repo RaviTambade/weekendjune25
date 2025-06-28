@@ -11,7 +11,6 @@
 > **Selenium is not a testing tool… it’s your browser’s personal driver.**
 > It can open a browser, go to a website, enter data, click buttons, check output — **just like a human tester**, but without getting tired.
  
-
 ## 🌐 Why Selenium?
 
 > *“Why should I use Selenium if I already know how to test manually?”*

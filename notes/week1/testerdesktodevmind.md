@@ -1,4 +1,3 @@
-
 ## From Tester’s Desk to Developer’s Mind
 
 > *“Let me take you back to the first day you walked into a QA role. You were told what the system should do, and your job was to make sure it worked as expected. Right? You became the gatekeeper of quality. But have you ever wondered… what happens *before* the testing begins? Who writes the logic you test? Who plans how the software is built? And how can *you* be that person too?”*
