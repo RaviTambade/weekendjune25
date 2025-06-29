@@ -1,0 +1,12 @@
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MathsUtility\bin\Debug\net9.0\MathsUtility.deps.json
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MathsUtility\bin\Debug\net9.0\MathsUtility.dll
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MathsUtility\bin\Debug\net9.0\MathsUtility.pdb
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MathsUtility\obj\Debug\net9.0\MathsUtility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MathsUtility\obj\Debug\net9.0\MathsUtility.AssemblyInfoInputs.cache
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MathsUtility\obj\Debug\net9.0\MathsUtility.AssemblyInfo.cs
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MathsUtility\obj\Debug\net9.0\MathsUtility.csproj.CoreCompileInputs.cache
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MathsUtility\obj\Debug\net9.0\MathsUtility.sourcelink.json
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MathsUtility\obj\Debug\net9.0\MathsUtility.dll
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MathsUtility\obj\Debug\net9.0\refint\MathsUtility.dll
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MathsUtility\obj\Debug\net9.0\MathsUtility.pdb
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MathsUtility\obj\Debug\net9.0\ref\MathsUtility.dll

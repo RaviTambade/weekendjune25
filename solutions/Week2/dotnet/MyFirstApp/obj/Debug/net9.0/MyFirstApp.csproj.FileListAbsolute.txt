@@ -1,0 +1,15 @@
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\bin\Debug\net9.0\MyFirstApp.exe
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\bin\Debug\net9.0\MyFirstApp.deps.json
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\bin\Debug\net9.0\MyFirstApp.runtimeconfig.json
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\bin\Debug\net9.0\MyFirstApp.dll
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\bin\Debug\net9.0\MyFirstApp.pdb
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\obj\Debug\net9.0\MyFirstApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\obj\Debug\net9.0\MyFirstApp.AssemblyInfoInputs.cache
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\obj\Debug\net9.0\MyFirstApp.AssemblyInfo.cs
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\obj\Debug\net9.0\MyFirstApp.csproj.CoreCompileInputs.cache
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\obj\Debug\net9.0\MyFirstApp.sourcelink.json
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\obj\Debug\net9.0\MyFirstApp.dll
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\obj\Debug\net9.0\refint\MyFirstApp.dll
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\obj\Debug\net9.0\MyFirstApp.pdb
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\obj\Debug\net9.0\MyFirstApp.genruntimeconfig.cache
+D:\Ravi\TAP\TAP\weekendjune25\solutions\Week2\dotnet\MyFirstApp\obj\Debug\net9.0\ref\MyFirstApp.dll
