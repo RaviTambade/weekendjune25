@@ -1,5 +1,5 @@
 
-#  esterday’s Session — A Mentor’s Perspective*
+# Yesterday’s Session — A Mentor’s Perspective*
 
 "Team, yesterday we took a big step together. We didn’t just learn commands — we started building a foundation for how professional developers work with .NET.
 
