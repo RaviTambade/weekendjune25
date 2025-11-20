@@ -1,23 +1,24 @@
-## 👩‍🏫 **Part 6: Cucumber + Spring Boot API Testing – From Unit Tests to Behavior-Driven Development**
+# 👩‍🏫 **Part 6: Cucumber + Spring Boot API Testing**
 
-The next morning, the lab buzzed with energy.
-Rutuja and Sanika were already seated with coffees in hand, laptops open.
+## **Step-by-Step Implementation Guidelines (Mentor Style)**
 
-Yesterday they had mastered **Mockito and unit tests**.
-Today, the mountain looked taller: **BDD with Cucumber**.
+### *From Unit Tests → Mockito → BDD with Cucumber*
 
-> **Rutuja:** “Sir, how do we write tests that even non-tech people can read?”
-> **Sanika:** “Yeah, like product owners or testers!”
+# 🌱 **Step 0 — The Mindset Shift: Why BDD?**
 
-I smiled.
+Before coding, I explained to Rutuja and Sanika:
 
-> “Exactly. That’s the magic of **Cucumber**. It allows humans to read **Given-When-Then** stories while letting computers execute them.”
+> “Unit tests help the computer understand correctness.
+> Cucumber helps **humans** understand correctness.”
 
-### ⚙️ Scene 1: Setting Up the Project
+They smiled — today wasn’t just about code.
+It was about communication.
 
-We started with a simple **Spring Boot API**:
+# 🛠️ **Step 1 — Create a Simple Spring Boot API**
 
-**`ProductController.java`**
+Create `ProductController`, keeping it simple and testable.
+
+### **`ProductController.java`**
 
 ```java
 @RestController
@@ -41,7 +42,13 @@ public class ProductController {
 }
 ```
 
-Then we added **Cucumber dependencies** in `pom.xml`:
+- ✔ Clear
+- ✔ Single responsibility
+- ✔ Perfect for testing
+
+# 📦 **Step 2 — Add Cucumber Dependencies to Maven**
+
+Open `pom.xml` → Add inside `<dependencies>`:
 
 ```xml
 <dependency>
@@ -50,6 +57,7 @@ Then we added **Cucumber dependencies** in `pom.xml`:
     <version>8.13.0</version>
     <scope>test</scope>
 </dependency>
+
 <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-spring</artifactId>
@@ -58,16 +66,25 @@ Then we added **Cucumber dependencies** in `pom.xml`:
 </dependency>
 ```
 
-Rutuja typed carefully,
-while Sanika cross-checked versions.
+Then add the Surefire plugin:
 
-> “This is how automation tools plug into Maven,” I explained.
+```xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.0.0-M9</version>
+</plugin>
+```
 
-### 🧩 Scene 2: Writing the Feature File
+> **Sanika:** “So Maven automatically downloads Cucumber?”
+> **Me:** “Exactly — build automation at work.”
 
-We created a **human-readable scenario**:
+# ✍️ **Step 3 — Write the Feature File (Human-Readable)**
 
-**`product.feature`**
+Inside:
+`src/test/resources/features/product.feature`
+
+### **`product.feature`**
 
 ```gherkin
 Feature: Get Product Name
@@ -83,14 +100,16 @@ Feature: Get Product Name
     Then the response should be "Not Found"
 ```
 
-> **Sanika:** “Sir, this looks like plain English!”
-> **I:** “Yes! Business people can read this too. This is **BDD magic**.”
+> **Rutuja:** “Sir, this looks like story writing!”
+> **Me:** “Yes — stories that computers can execute.”
 
-### ⚡ Scene 3: Linking Steps with Java
 
-Under `src/test/java`, we created a **Step Definition class**:
+# 🔗 **Step 4 — Link Feature Steps to Java (Step Definitions)**
 
-**`ProductStepDefinitions.java`**
+Create file:
+`src/test/java/com/example/bdd/ProductStepDefinitions.java`
+
+### **`ProductStepDefinitions.java`**
 
 ```java
 import io.cucumber.java.en.*;
@@ -102,9 +121,11 @@ public class ProductStepDefinitions {
     ProductService service;
     ProductController controller;
     String response;
+    int productId;
 
     @Given("the product ID {int} exists")
     public void productExists(int id) {
+        productId = id;
         service = mock(ProductService.class);
         when(service.getProductNameById(id)).thenReturn("Laptop");
         controller = new ProductController(service);
@@ -112,6 +133,7 @@ public class ProductStepDefinitions {
 
     @Given("the product ID {int} does not exist")
     public void productDoesNotExist(int id) {
+        productId = id;
         service = mock(ProductService.class);
         when(service.getProductNameById(id)).thenReturn("Not Found");
         controller = new ProductController(service);
@@ -119,8 +141,7 @@ public class ProductStepDefinitions {
 
     @When("I request the product name")
     public void requestProductName() {
-        // Here, we simulate API call
-        response = controller.getProductName(101).getBody();
+        response = controller.getProductName(productId).getBody();
     }
 
     @Then("the response should be {string}")
@@ -130,52 +151,68 @@ public class ProductStepDefinitions {
 }
 ```
 
-Rutuja and Sanika watched their first **BDD scenario translate into executable Java code**.
+- ✔ Uses Mockito
+- ✔ No real DB
+- ✔ Full BDD flow
 
-### 🧠 Scene 4: Running Cucumber with Maven
 
-They executed:
+# ▶️ **Step 5 — Create the Cucumber Test Runner**
+
+Location:
+`src/test/java/com/example/bdd/CucumberTestRunner.java`
+
+### **`CucumberTestRunner.java`**
+
+```java
+import io.cucumber.junit.platform.engine.Cucumber;
+
+@Cucumber
+public class CucumberTestRunner {
+}
+```
+
+> **Sanika:** “Bas? Just this?”
+> **Me:** “Yes. Cucumber does the rest.”
+
+# 🚀 **Step 6 — Run the BDD Tests**
+
+In terminal:
 
 ```
 mvn test
 ```
 
-Lines of output scrolled:
-Cucumber read the feature file, matched steps to methods, ran the tests…
+Cucumber:
+
+- ✔ Reads the feature
+- ✔ Matches each step
+- ✔ Executes Java code
+- ✔ Reports results
 
 > **BUILD SUCCESS**
 
-> **Rutuja:** “Sir, it literally read the English and tested the API!”
-> **Sanika:** “This is like magic… but real!”
+Rutuja whispered:
 
-I nodded.
-
-> “Not magic — just disciplined automation.
-> You now have unit tests, mocks, and readable BDD scenarios.
-> You’re ready for professional API testing.”
-
-### 💬 Scene 5: Mentor Reflection
-
-The biggest lesson wasn’t syntax or tools — it was **communication**.
-
-* **Unit tests** ensure your logic works.
-* **Mockito** ensures isolation from dependencies.
-* **Cucumber** ensures the story is readable and understandable to humans and machines alike.
-
-That day, Rutuja and Sanika didn’t just learn a new framework.
-They learned **how professional teams validate software collaboratively**.
-
-> **Sanika:** “Sir, now we can tell stories and check them automatically!”
-> **I:** “Exactly. This is how software engineers communicate with code *and humans* at the same time.”
+> “Sir… this is like magic.”
 
 
-### 🪜 Next Step (Part 7 Preview)
+# 🧭 **Step 7 — What Exactly Did They Learn Today?**
 
-Next, they’ll dive into **full-stack automation**:
+### ✔ Unit Tests validate logic
 
-* **Spring Boot + Database + BDD integration**
-* **Parameterized tests**
-* **Realistic product scenarios**
-* Preparing for **real-world enterprise projects**.
+### ✔ Mockito isolates the API
 
- 
+### ✔ Cucumber validates entire *stories*
+
+### ✔ Developers + Testers + Product Owners speak the same language
+
+### ✔ Spring Boot + Cucumber = Enterprise-grade API testing
+
+They leveled up from:
+**“Does the code work?” → “Does the feature behave as expected?”**
+
+# 🪜 **Coming Up Next (Part 7)**
+
+🎯 **Cucumber + Database + Integration Tests**
+🎯 UI + API pipeline
+🎯 End-to-end workflow automation

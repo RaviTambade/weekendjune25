@@ -1,124 +1,204 @@
+# 👩‍🏫 **Part 3 — From Maven to First Automation Test (Step-by-Step Guide)**
 
-## 👩‍🏫 **Part 3: From Maven to First Automation Test (JUnit Awakening)**
-
-The previous night ended with a celebration — Java, VS Code, and Maven were finally running perfectly.
-The mood was confident, like two hikers who had just learned how to read a map.
-
-And now, a new mountain stood before them — **Automation Testing with JUnit**.
+> Goal: Create a Maven project, add JUnit, write a simple test (`CalculatorTest`), run `mvn test`, and understand what each piece does.
 
 
-### ☕ Scene 1: “Sir, what’s next after Maven?”
+## ✅ Prerequisites (Before you start)
 
-> **Rutuja:** “Sir, Maven install zhala… ata kay karaycha?”
-> **Sanika:** “Automation testing!”
-
-I smiled.
-That spark — when students start asking *what’s next* instead of *what went wrong* — that’s growth.
-I explained,
-
-> “JUnit is your next friend. Just like you used `System.out.println` to check output manually,
-> JUnit checks it **automatically** — every time you run your code.”
-
-They nodded, curious, but slightly puzzled.
-We were about to turn **programming into testing** — and that transition always changes how students think.
+1. Java JDK installed and `java --version` works.
+2. Maven installed and `mvn --version` works.
+3. VS Code (or any editor) and a terminal.
+4. Basic Java knowledge (classes, methods).
 
 
-### 💡 Scene 2: The Maven Project Comes Alive
+## Step 1 — Create a Maven project (project skeleton)
 
-They created their first proper **Maven Java project**.
+1. Open terminal in your working folder.
+2. Run (interactive archetype generator):
 
-> **Sanika:** “Command prompt open — `mvn archetype:generate`.”
-> **Rutuja:** “Oh, it’s downloading something!”
-
-Lines of text scrolled rapidly — Maven fetching dependencies, generating folders.
-It was their first exposure to the **build automation world**,
-where code, dependencies, and configurations come together like clockwork.
-
-Soon, the familiar structure appeared:
-
-```
-src
- ├── main
- │   └── java
- └── test
-     └── java
+```bash
+mvn archetype:generate -DgroupId=com.transflower -DartifactId=calculator-demo -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 
-> **Sanika:** “Sir, he test folder kasa?”
-> **I:** “That’s where your automated tests live — your program’s safety net.”
+What this creates:
 
+```
+calculator-demo/
+ ├─ pom.xml
+ └─ src/
+     ├─ main/java/com/transflower/App.java
+     └─ test/java/com/transflower/AppTest.java
+```
 
-### 🧩 Scene 3: The First Test
+**Mentor tip:** If the generator asks for options, you can accept defaults or use the full `-D` flags as above to skip prompts.
 
-They opened the `src/test/java` folder and created a class named `CalculatorTest.java`.
+## Step 2 — Inspect `pom.xml` and add JUnit 5 (if not already present)
 
-Inside, we wrote the simplest possible test:
+Open `pom.xml` and ensure JUnit Jupiter (JUnit 5) dependency exists. Minimal snippet:
+
+```xml
+<dependencies>
+  <dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter</artifactId>
+    <version>5.10.0</version>
+    <scope>test</scope>
+  </dependency>
+</dependencies>
+
+<build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-surefire-plugin</artifactId>
+      <version>3.0.0-M9</version>
+    </plugin>
+  </plugins>
+</build>
+```
+
+**Mentor tip:** `mvn test` uses Surefire to run tests. JUnit 5 needs a modern Surefire plugin (versions above 2.22+ or 3.x).
+
+## Step 3 — Create the Calculator class (production code)
+
+Create `src/main/java/com/transflower/Calculator.java`:
 
 ```java
+package com.transflower;
+
+public class Calculator {
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+
+    // add more methods later: multiply, divide (with edge-case handling)
+}
+```
+
+**Mentor tip:** Keep production code simple and single-responsibility — one class, clear methods. This makes testing straightforward.
+
+## Step 4 — Create the first JUnit test
+
+Create `src/test/java/com/transflower/CalculatorTest.java`:
+
+```java
+package com.transflower;
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalculatorTest {
+
     @Test
     void testAddition() {
-        int result = 2 + 3;
+        Calculator calc = new Calculator();
+        int result = calc.add(2, 3);
         assertEquals(5, result);
+    }
+
+    @Test
+    void testSubtraction() {
+        Calculator calc = new Calculator();
+        assertEquals(1, calc.subtract(3, 2));
     }
 }
 ```
 
-> **Rutuja:** “So this is like checking our logic?”
-> **I:** “Exactly. You tell the computer — *this is what I expect.*
-> If it matches, you pass. If not, you debug.”
+**Mentor tip:** Name test methods clearly (what + expected). Each `@Test` should verify one behavior.
 
-They ran the command:
+---
 
-```
+## Step 5 — Run tests with Maven
+
+In project root:
+
+```bash
 mvn test
 ```
 
-And then came the magic:
+Expected output:
 
-> **BUILD SUCCESS**
+* Maven downloads dependencies (first run).
+* Surefire runs tests.
+* `BUILD SUCCESS` and test summary (e.g., `Tests run: 2, Failures: 0, Errors: 0, Skipped: 0`)
 
-The joy in their eyes said it all.
-No print statements. No manual checking.
-Their **code tested itself.**
+**If tests fail:** Read the stack trace, fix the production code or tests, then re-run `mvn test`. Failures are normal — they’re where learning happens.
+
+## Step 6 — Introduce a failing test (learning moment)
+
+Add a failing test intentionally to show value of testing:
+
+```java
+@Test
+void failingTestExample() {
+    Calculator calc = new Calculator();
+    assertEquals(6, calc.add(2, 3)); // intentionally wrong
+}
+```
+
+Run `mvn test`. Watch the failure and the error message. Then fix the assertion back to `5`.
+
+**Mentor tip:** This reinforces reading test output and debugging with confidence.
+
+---
+
+## Step 7 — Refactor and run tests frequently
+
+1. Refactor production code (rename methods, improve logic).
+2. Run `mvn test` after each small change.
+3. Keep tests green before progressing.
+
+**Mentor tip:** Tests are your safety net — they let you refactor without fear.
 
 
-### 🧠 Scene 4: “Now I Understand Automation!”
+## Step 8 — Add parameterized tests (optional next step)
 
-> **Sanika:** “So JUnit automatically checks output?”
-> **Rutuja:** “Means no need to open console every time!”
+When comfortable, introduce parameterized tests for more coverage:
 
-Yes — that “click” moment had arrived.
-They realized testing isn’t a separate phase — it’s a **habit woven into development**.
-They learned that Maven fetches JUnit for you, builds the project, and runs tests — all in one go.
+```java
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
-This was the shift from **writing programs** to **engineering software**.
+@ParameterizedTest
+@CsvSource({ "1,2,3", "2,3,5", "10,15,25" })
+void testAdditionParameterized(int a, int b, int expected) {
+    Calculator calc = new Calculator();
+    assertEquals(expected, calc.add(a, b));
+}
+```
+
+Run `mvn test` and observe multiple cases executed.
+
+## Step 9 — Commit to Git and add to CI later
+
+1. Initialize Git: `git init`
+2. Add files and commit:
+
+```bash
+git add .
+git commit -m "maven project + calculator + basic junit tests"
+```
+
+3. When ready, push to GitHub and we’ll add GitHub Actions pipeline to run `mvn test` on PRs.
+
+**Mentor tip:** Commit early and often. Each commit documents progress and teaches rollback discipline.
 
 
-### 🧭 Scene 5: From Curiosity to Confidence
+## Suggested Exercises & Milestones (for Rutuja & Sanika)
 
-By the end of the session:
-
-* They had a **Maven project** structure.
-* Understood **dependencies** through the `pom.xml`.
-* Executed their **first JUnit test case**.
-* Experienced how **automation reduces human error**.
-
-> **Rutuja:** “Sir, next time, can we test real logic — like a Calculator class?”
-> **I:** “Absolutely. Next session, we’ll build your own class and test every method.”
+1. **Exercise 1:** Add `multiply(int, int)` and tests for positive and negative numbers.
+2. **Exercise 2:** Implement `divide(int, int)` and handle division by zero — write tests for exception cases (`assertThrows`).
+3. **Exercise 3:** Convert some tests to parameterized tests.
+4. **Milestone:** All tests green locally and project pushed to GitHub.
 
 
-### 💬 Mentor Reflection
+## Quick Troubleshooting Cheatsheet
 
-That evening reminded me — students don’t need fancy slides or frameworks first.
-They need to **see their code prove itself**.
-That’s when they start believing in the power of automation.
-
-Teaching tools like JUnit and Maven isn’t about syntax —
-it’s about showing how **discipline and structure** make developers reliable.
-
-Rutuja and Sanika didn’t just learn testing that day.
-They learned how to *trust their own code.*
+* `java not recognized` → Check JDK installation and PATH.
+* `mvn not recognized` → Check Maven installation and PATH.
+* `No tests found` → Ensure test classes are under `src/test/java` and use JUnit 5 annotations.
+* `Dependency download stuck` → Check internet access or try `mvn -U clean test`.
