@@ -4,7 +4,7 @@
 ### *“Arjun, testing is not just clicking buttons. It’s understanding how apps behave.”*
 
 
-# 🟢 **LEVEL 1 — FOUNDATIONS (Week 1–2)**
+# 🟢 **LEVEL 1 — FOUNDATIONS**
 
 ## 🎯 Goal: Learn basics of automation & Playwright essentials
 
@@ -38,7 +38,7 @@
 * `expect(locator).toHaveText()`
 
 
-# 🟡 **LEVEL 2 — WEB AUTOMATION PRO (Week 3–4)**
+# 🟡 **LEVEL 2 — WEB AUTOMATION PRO**
 
 ## 🎯 Goal: Handle real-world web pages
 
@@ -76,7 +76,7 @@
 * File upload
 * Dialogs (alert, confirm, prompt)
 
-# 🟠 **LEVEL 3 — PLAYWRIGHT + API TESTING (Week 5–6)**
+# 🟠 **LEVEL 3 — PLAYWRIGHT + API TESTING**
 
 ## 🎯 Goal: Become Full-Stack Tester (UI + API in one place)
 
@@ -102,7 +102,7 @@ Use API to:
 * `page.waitForResponse()`
 * `page.waitForRequest()`
 
-# 🔵 **LEVEL 4 — PAGE OBJECT MODEL (POM) (Week 7–8)**
+# 🔵 **LEVEL 4 — PAGE OBJECT MODEL (POM)**
 
 ## 🎯 Goal: Write clean, scalable tests like an SDET
 
@@ -127,7 +127,7 @@ await dashboard.goToProducts();
 await products.addToCart('Laptop');
 ```
 
-# 🔴 **LEVEL 5 — ADVANCED FEATURES (Week 9–10)**
+# 🔴 **LEVEL 5 — ADVANCED FEATURES**
 
 ## 🎯 Goal: Master Playwright for enterprise-grade projects
 
@@ -160,7 +160,7 @@ await products.addToCart('Laptop');
 * View trace viewer
 
 
-# 🟣 **LEVEL 6 — CI/CD & PROJECT WORK (Week 11–12)**
+# 🟣 **LEVEL 6 — CI/CD & PROJECT WORK**
 
 ## 🎯 Goal: Deploy tests to automation pipeline
 
