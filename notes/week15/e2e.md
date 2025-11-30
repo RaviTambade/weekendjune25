@@ -1,20 +1,10 @@
-Let’s switch into **mentor storytelling mode**, where I guide you like a senior engineer teaching a young developer not just *what* to do, but *why* we do it.
-
-Sit back. Imagine we are in the lab. The Angular app is running.
-You are the new developer. I am your mentor.
-And today’s topic is **End-to-End Testing with Playwright**.
-
----
-
-# 🎙️ **Mentor Storytelling: The Journey of an End-to-End Test**
+# 🎙️ **The Journey of an End-to-End Test**
 
 “Come here,” I say, slightly tapping your shoulder as the browser opens.
 “I want you to understand something important. Testing is not about writing code.
 Testing is about **protecting the user’s journey**.”
 
 You look puzzled, so I continue.
-
----
 
 ## ⭐ **Chapter 1 — What is E2E Testing?**
 
@@ -27,8 +17,6 @@ And if anything breaks anywhere — your shopping journey collapses.”
 “That is End-to-End testing.
 We do not test code.
 We test experiences.”
-
----
 
 ## ⭐ **Chapter 2 — Why Playwright?**
 
@@ -54,8 +42,6 @@ It waits automatically for the UI to be ready—no sleeps, no hacks.
 
 Chromium, WebKit, Firefox — all under your command.
 
----
-
 ## ⭐ **Chapter 3 — Testing the User’s Journey**
 
 “Let’s test a real-world flow,” I say.
@@ -64,8 +50,6 @@ Chromium, WebKit, Firefox — all under your command.
 You want to buy a laptop.”
 
 Now I type out the flow, while explaining each step like a story.
-
----
 
 # 🧪 **The Playwright E2E Test (JavaScript)**
 
@@ -93,8 +77,6 @@ test('User buys a product end-to-end', async ({ page }) => {
 });
 ```
 
----
-
 ## ⭐ **Chapter 4 — The Mentor’s Wisdom**
 
 I turn to you and say:
@@ -109,23 +91,3 @@ Not comparing internal logic.”
 “That’s E2E testing:
 Not verifying features…
 But protecting journeys.”
-
----
-
-## ⭐ **Chapter 5 — Your Next Level**
-
-I smile again.
-
-“If you want, I’ll teach you the next chapters too:”
-
-* 🔹 Testing failure scenarios
-* 🔹 Testing login flows
-* 🔹 Testing Angular guards
-* 🔹 Mocking APIs with Playwright
-* 🔹 Visual regression testing
-* 🔹 API testing with Playwright
-* 🔹 Running Playwright in CI/CD
-
-“Just say the word, and your mentor will guide you.”
-
- 
