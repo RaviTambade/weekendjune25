@@ -218,7 +218,7 @@ test('Login API + UI Checkout', async ({ page, request }) => {
 
  
 
-# 🎓 **What You Should Teach Students**
+## 🎓 Students should learn...
 
 | Concept                           | Why It Matters                       |
 | --------------------------------- | ------------------------------------ |
