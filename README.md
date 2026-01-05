@@ -3,7 +3,7 @@
 * **Title:** *“From Testing to Building: Accelerate Your Development Journey”*
 * **Format:** Weekend Workshop (Saturdays & Sundays 4 hours/day)
 * **Duration:** 12 Weeks (3 Months)
-* **Cost:** 12500 Rs.
+* **Cost:** 15000 Rs.
 * **Target Audience:** Working professionals from Software Testing background
 * **Goal:** Prepare participants for a Full-Stack Software Development Role
 * **Mentor-led, Project-based, Career-focused**
