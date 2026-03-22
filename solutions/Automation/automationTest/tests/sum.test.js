@@ -1,0 +1,7 @@
+//AUT: Application under Test
+const sum = require('../aut/sum');
+
+//test case
+test('adds 1 + 2 to equal 3', () => {
+    expect(sum(1, 2)).toBe(3);
+});
