@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week2\\dotnet\\FirstUnitTestProject\\FirstUnitTestProject.csproj": {}
+    "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week2\\dotnet\\FirstUnitTestProject\\FirstUnitTestProject.csproj": {}
   },
   "projects": {
-    "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week2\\dotnet\\FirstUnitTestProject\\FirstUnitTestProject.csproj": {
+    "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week2\\dotnet\\FirstUnitTestProject\\FirstUnitTestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week2\\dotnet\\FirstUnitTestProject\\FirstUnitTestProject.csproj",
+        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week2\\dotnet\\FirstUnitTestProject\\FirstUnitTestProject.csproj",
         "projectName": "FirstUnitTestProject",
-        "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week2\\dotnet\\FirstUnitTestProject\\FirstUnitTestProject.csproj",
+        "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week2\\dotnet\\FirstUnitTestProject\\FirstUnitTestProject.csproj",
         "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week2\\dotnet\\FirstUnitTestProject\\obj\\",
+        "outputPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week2\\dotnet\\FirstUnitTestProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week2\\dotnet\\MathsUtility\\MathsUtility.csproj": {
-                "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week2\\dotnet\\MathsUtility\\MathsUtility.csproj"
+              "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week2\\dotnet\\MathsUtility\\MathsUtility.csproj": {
+                "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week2\\dotnet\\MathsUtility\\MathsUtility.csproj"
               }
             }
           }
@@ -48,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -74,23 +74,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week2\\dotnet\\MathsUtility\\MathsUtility.csproj": {
+    "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week2\\dotnet\\MathsUtility\\MathsUtility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week2\\dotnet\\MathsUtility\\MathsUtility.csproj",
+        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week2\\dotnet\\MathsUtility\\MathsUtility.csproj",
         "projectName": "MathsUtility",
-        "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week2\\dotnet\\MathsUtility\\MathsUtility.csproj",
+        "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week2\\dotnet\\MathsUtility\\MathsUtility.csproj",
         "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week2\\dotnet\\MathsUtility\\obj\\",
+        "outputPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week2\\dotnet\\MathsUtility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -123,7 +137,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -139,12 +153,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

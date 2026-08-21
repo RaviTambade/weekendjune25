@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LgGbu/MbPQg=",
+  "dgSpecHash": "dD+2lOxVpNs=",
   "success": true,
-  "projectFilePath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week3\\ECommerce\\Catalog\\Catalog.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week3\\ECommerce\\Catalog\\Catalog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tfladmin\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\tfladmin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\tfladmin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

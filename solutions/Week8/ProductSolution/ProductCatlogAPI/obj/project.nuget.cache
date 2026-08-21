@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CjDk5x5F3sU=",
+  "dgSpecHash": "wXdrwKCMyfU=",
   "success": true,
-  "projectFilePath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week8\\ProductSolution\\ProductCatlogAPI\\ProductCatlogAPI.csproj",
+  "projectFilePath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week8\\ProductSolution\\ProductCatlogAPI\\ProductCatlogAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tfladmin\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\tfladmin\\.nuget\\packages\\google.protobuf\\3.30.0\\google.protobuf.3.30.0.nupkg.sha512",
@@ -32,7 +32,11 @@
     "C:\\Users\\tfladmin\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\tfladmin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\tfladmin\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512",
-    "C:\\Users\\tfladmin\\.nuget\\packages\\zstdsharp.port\\0.8.5\\zstdsharp.port.0.8.5.nupkg.sha512"
+    "C:\\Users\\tfladmin\\.nuget\\packages\\zstdsharp.port\\0.8.5\\zstdsharp.port.0.8.5.nupkg.sha512",
+    "C:\\Users\\tfladmin\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\tfladmin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\tfladmin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\tfladmin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
   ],
   "logs": []
 }

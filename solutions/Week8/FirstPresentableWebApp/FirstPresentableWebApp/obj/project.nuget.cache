@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dLWRR0DvSfw=",
+  "dgSpecHash": "N+Zhg5VsCfU=",
   "success": true,
-  "projectFilePath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week8\\FirstPresentableWebApp\\FirstPresentableWebApp\\FirstPresentableWebApp.csproj",
+  "projectFilePath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week8\\FirstPresentableWebApp\\FirstPresentableWebApp\\FirstPresentableWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tfladmin\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\tfladmin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -115,7 +115,11 @@
     "C:\\Users\\tfladmin\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\tfladmin\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512",
     "C:\\Users\\tfladmin\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
-    "C:\\Users\\tfladmin\\.nuget\\packages\\system.threading.tasks.dataflow\\8.0.0\\system.threading.tasks.dataflow.8.0.0.nupkg.sha512"
+    "C:\\Users\\tfladmin\\.nuget\\packages\\system.threading.tasks.dataflow\\8.0.0\\system.threading.tasks.dataflow.8.0.0.nupkg.sha512",
+    "C:\\Users\\tfladmin\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\tfladmin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\tfladmin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\tfladmin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.11\\microsoft.netcore.app.host.win-x64.9.0.11.nupkg.sha512"
   ],
   "logs": []
 }

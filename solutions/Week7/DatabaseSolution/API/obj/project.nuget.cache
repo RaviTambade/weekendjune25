@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "M7PGcoXilKU=",
+  "dgSpecHash": "sv2twHOnBLs=",
   "success": true,
-  "projectFilePath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\API\\API.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\API\\API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tfladmin\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\tfladmin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\tfladmin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

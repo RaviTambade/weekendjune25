@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CUIL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbf5ddc87599c4d4dfa5532b7e8120904b80ff5e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f38133484e33e1bb0432e6a5fd3341bbd2080bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("CUIL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CUIL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\CUIL\\CUIL.csproj": {}
+    "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\CUIL\\CUIL.csproj": {}
   },
   "projects": {
-    "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\API\\API.csproj": {
+    "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\API\\API.csproj",
+        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\API\\API.csproj",
+        "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\API\\API.csproj",
         "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\API\\obj\\",
+        "outputPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\BOL\\BOL.csproj": {
-                "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\BOL\\BOL.csproj"
+              "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\BOL\\BOL.csproj": {
+                "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\BOL\\BOL.csproj"
               },
-              "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\SAL\\SAL.csproj": {
-                "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\SAL\\SAL.csproj"
+              "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\SAL\\SAL.csproj": {
+                "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\SAL\\SAL.csproj"
               }
             }
           }
@@ -51,7 +51,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -67,23 +67,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\BOL\\BOL.csproj": {
+    "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\BOL\\BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\BOL\\BOL.csproj",
+        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\BOL\\BOL.csproj",
         "projectName": "BOL",
-        "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\BOL\\BOL.csproj",
+        "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\BOL\\BOL.csproj",
         "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\BOL\\obj\\",
+        "outputPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -116,7 +130,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -132,23 +146,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\CUIL\\CUIL.csproj": {
+    "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\CUIL\\CUIL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\CUIL\\CUIL.csproj",
+        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\CUIL\\CUIL.csproj",
         "projectName": "CUIL",
-        "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\CUIL\\CUIL.csproj",
+        "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\CUIL\\CUIL.csproj",
         "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\CUIL\\obj\\",
+        "outputPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\CUIL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -169,17 +197,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\API\\API.csproj": {
-                "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\API\\API.csproj"
+              "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\API\\API.csproj": {
+                "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\API\\API.csproj"
               },
-              "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\BOL\\BOL.csproj": {
-                "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\BOL\\BOL.csproj"
+              "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\BOL\\BOL.csproj": {
+                "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\BOL\\BOL.csproj"
               },
-              "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\DAL\\DAL.csproj"
+              "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\DAL\\DAL.csproj"
               },
-              "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\SAL\\SAL.csproj": {
-                "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\SAL\\SAL.csproj"
+              "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\SAL\\SAL.csproj": {
+                "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\SAL\\SAL.csproj"
               }
             }
           }
@@ -194,7 +222,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -210,23 +238,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\DAL\\DAL.csproj": {
+    "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\DAL\\DAL.csproj",
+        "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\DAL\\obj\\",
+        "outputPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -247,11 +289,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\BOL\\BOL.csproj": {
-                "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\BOL\\BOL.csproj"
+              "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\BOL\\BOL.csproj": {
+                "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\BOL\\BOL.csproj"
               },
-              "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\Utility\\Utility.csproj": {
-                "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\Utility\\Utility.csproj"
+              "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\Utility\\Utility.csproj": {
+                "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\Utility\\Utility.csproj"
               }
             }
           }
@@ -266,7 +308,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -282,23 +324,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\SAL\\SAL.csproj": {
+    "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\SAL\\SAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\SAL\\SAL.csproj",
+        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\SAL\\SAL.csproj",
         "projectName": "SAL",
-        "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\SAL\\SAL.csproj",
+        "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\SAL\\SAL.csproj",
         "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\SAL\\obj\\",
+        "outputPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\SAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -319,11 +375,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\BOL\\BOL.csproj": {
-                "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\BOL\\BOL.csproj"
+              "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\BOL\\BOL.csproj": {
+                "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\BOL\\BOL.csproj"
               },
-              "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\DAL\\DAL.csproj"
+              "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\DAL\\DAL.csproj"
               }
             }
           }
@@ -338,7 +394,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -354,23 +410,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\Utility\\Utility.csproj": {
+    "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\Utility\\Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\Utility\\Utility.csproj",
+        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\Utility\\Utility.csproj",
         "projectName": "Utility",
-        "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\Utility\\Utility.csproj",
+        "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\Utility\\Utility.csproj",
         "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\Utility\\obj\\",
+        "outputPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -391,8 +461,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\BOL\\BOL.csproj": {
-                "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\week6\\LooselyCoupledSolution\\BOL\\BOL.csproj"
+              "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\BOL\\BOL.csproj": {
+                "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\DatabaseSolution\\BOL\\BOL.csproj"
               }
             }
           }
@@ -407,7 +477,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -423,12 +493,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

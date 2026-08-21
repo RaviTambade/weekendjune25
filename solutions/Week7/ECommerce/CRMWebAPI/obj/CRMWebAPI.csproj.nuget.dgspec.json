@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week7\\ECommerce\\CRMWebAPI\\CRMWebAPI.csproj": {}
+    "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\ECommerce\\CRMWebAPI\\CRMWebAPI.csproj": {}
   },
   "projects": {
-    "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week7\\ECommerce\\CRMWebAPI\\CRMWebAPI.csproj": {
+    "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\ECommerce\\CRMWebAPI\\CRMWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week7\\ECommerce\\CRMWebAPI\\CRMWebAPI.csproj",
+        "projectUniqueName": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\ECommerce\\CRMWebAPI\\CRMWebAPI.csproj",
         "projectName": "CRMWebAPI",
-        "projectPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week7\\ECommerce\\CRMWebAPI\\CRMWebAPI.csproj",
+        "projectPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\ECommerce\\CRMWebAPI\\CRMWebAPI.csproj",
         "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\Ravi\\TAP\\TAP\\weekendjune25\\solutions\\Week7\\ECommerce\\CRMWebAPI\\obj\\",
+        "outputPath": "D:\\Ravi\\TAP\\TAP\\AutomationTesting\\solutions\\Week7\\ECommerce\\CRMWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -60,6 +60,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -68,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
