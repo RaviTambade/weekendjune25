@@ -1,113 +1,265 @@
-## 🌸 **Transflower Acceleration Program (TAP)**
+# Software Development Engineer in Test (SDET)
 
-* **Title:** *“From Testing to Building: Accelerate Your Development Journey”*
-* **Target Audience:** Working professionals from Software Testing background
-* **Goal:** Prepare participants for a Full-Stack Software Development Role
-* **Mentor-led, Project-based, Career-focused**
-* **Mentor:Ravi Tambade**
+> **Manual Tester → Automation Test Engineer → AI-Augmented SDET**
 
-## 💬 Mentor's message
+## Transflower TAP – AI-Augmented SDET Program
 
-> *"You’re not switching careers—you’re expanding your impact. You’ve spent years testing other people’s code, and now it’s time to create your own. Move from the right side of the V to the left. From QA to a Full Stack Individual Contributor. This is your journey, and Transflower is here to accelerate it."*
+**Transflower TAP (Transflower Acceleration Program)** is a hands-on career transformation program designed to help experienced manual testers evolve into **Software Development Engineers in Test (SDETs)**. The program goes beyond traditional automation training by combining **testing fundamentals, programming, UI/API/DB automation, framework engineering, CI/CD, Generative AI, AI-assisted coding, test generation, failure analysis, and AI agents**. Through real-world projects, mentoring, and continuous hands-on practice, learners develop the mindset and engineering skills required to build **reliable, scalable, and AI-augmented software testing solutions**.
 
- **"Welcome to Transflower Acceleration Program (TAP)—where your testing journey becomes the launchpad for your development career."**
+**Duration:** 12 Weeks
+**Days:** Saturday + Sunday
+**Time:** 7:00 AM – 10:00 AM
+**Total:** ~80 Hours
+**Audience:** Manual Testers with industry experience
 
-> You’ve spent years finding defects, raising bugs, testing apps. You know how to **break things the right way**—and that means you already think like a developer.
+### Technology Stack
 
-> Now imagine this: what if you **built** the features you once tested? What if you moved from the **right side of the V-Model** (Validation) to the **left side** (Design & Development)? That’s not just a shift—it’s a transformation.
+**Testing:** Selenium / Playwright, TestNG / NUnit, REST API, Postman, SQL
+**Programming:** Java / C# / Python / JavaScript
+**Engineering:** Git, GitHub, Maven / .NET, Jenkins / DevOps
+**AI:** Generative AI, LLMs, Prompt Engineering, AI Coding, Test Generation, Failure Analysis, RAG, Tool Calling, AI Agents, MCP Concepts
 
-> At Transflower, we’ve crafted a 12-week weekend journey just for you—a step-by-step skill-building experience that turns a quality analyst into a full-stack creator. Let me walk you through it...
 
-## 🗓️ **TAP Weekend Learning Journey (12 Weeks)**
+## Learning Journey
 
-### **Phase 0: Foundation & Setup** *(Week 1)*
+```text
+Manual Tester
+     ↓
+Testing Mindset
+     ↓
+Programming
+     ↓
+UI Automation
+     ↓
+Automation Framework
+     ↓
+API + Database Testing
+     ↓
+CI/CD
+     ↓
+Generative AI
+     ↓
+AI-Assisted Testing
+     ↓
+AI Tools + Tool Calling
+     ↓
+AI Test Agents
+     ↓
+AI-Augmented SDET
+```
 
-> "We begin by reframing your journey—understanding how testers can think like developers."
+# Month 1 — Manual Tester → Automation Engineer
 
-* ✅ V-Model Explained (You already know half)
-* ✅ Developer Mindset vs Tester Mindset
-* ✅ Tool Setup: VS Code, GitHub, Postman, SQL Clients
+| Week                            | Saturday                                             | Sunday                                                      |
+| ------------------------------- | ---------------------------------------------------- | ----------------------------------------------------------- |
+| **1. Testing + AI Mindset**     | Testing lifecycle, risk analysis, automation pyramid | GenAI, LLMs, hallucination, human-in-the-loop               |
+| **2. Programming + AI Coding**  | Programming fundamentals through testing examples    | AI-assisted coding, debugging, refactoring, test generation |
+| **3. OOP + Automation Design**  | OOP concepts and Page Object thinking                | AI-assisted framework design and code review                |
+| **4. Git + Project Foundation** | Git, GitHub, branches, commits, PRs                  | Build automation project and integrate AI into workflow     |
 
-### **Phase 1: Programming Foundations** *(Weeks 2–3)*
+### Core Workflow
 
-> "We build your logic muscle. If testing taught you to ask *why*, coding teaches you *how*."
+```text
+Requirement
+    ↓
+Risk Analysis
+    ↓
+Test Scenarios
+    ↓
+AI-Assisted Test Design
+    ↓
+Human Review
+    ↓
+Automation
+    ↓
+Execution
+    ↓
+AI-Assisted Debugging
+```
 
-* ✅ Language: Choose C# / Java / JavaScript
-* ✅ Data types, Loops, Functions, OOP
-* ✅ Practice: Logic builders, patterns, mini apps
+# Month 2 — Automation + AI-Augmented Testing
 
-🛠 Project: Console-based App – Expense Tracker / Test Case Generator
+| Week                         | Saturday                                                  | Sunday                                    |
+| ---------------------------- | --------------------------------------------------------- | ----------------------------------------- |
+| **5. Selenium / Playwright** | Browser automation, locators, forms, windows, frames      | AI-assisted automation development        |
+| **6. Reliable Automation**   | Waits, dynamic elements, AJAX, flaky tests                | AI-assisted locator and failure analysis  |
+| **7. Test Framework**        | TestNG / NUnit, assertions, fixtures, suites, parallelism | AI Test Case Generator                    |
+| **8. Framework Engineering** | Page Object Model, reusable components                    | AI Automation Code Reviewer + refactoring |
 
-### **Phase 2: Front-End Development** *(Weeks 4–5)*
+### AI Test Generation
 
-> "Now let’s give users something to interact with—your first real user interface."
+```text
+Requirement
+    ↓
+LLM
+    ↓
+Functional Tests
+Negative Tests
+Boundary Tests
+Security Tests
+Regression Tests
+    ↓
+Human Review
+    ↓
+Automation
+```
 
-* ✅ HTML, CSS, Bootstrap/Tailwind
-* ✅ JavaScript DOM, Events, Form Validation
-* ✅ GitHub Pages Deployment
+# Month 3 — API + DB + AI Agents
 
-🛠 Project: Portfolio Website + Login UI
+| Week                     | Saturday                                       | Sunday                                   |
+| ------------------------ | ---------------------------------------------- | ---------------------------------------- |
+| **9. API Automation**    | HTTP, REST, JSON, authentication, status codes | AI-powered API test generation           |
+| **10. Database Testing** | SQL, joins, aggregation, data validation       | AI SQL generation + test-data generation |
+| **11. AI Test Agents**   | LLMs, tools, tool calling, RAG                 | Browser + API + DB AI Test Agent         |
+| **12. CI/CD + Capstone** | Jenkins, pipeline, reports, continuous testing | AI-powered testing ecosystem             |
 
-### **Phase 3: Back-End Development** *(Weeks 6–7)*
 
-> "We go server-side—build the logic behind the button click."
+# Final Capstone — AI-Augmented Insurance Testing
 
-* ✅ REST APIs using ASP.NET Core / Spring Boot / Express.js
-* ✅ Controllers, Routing, Services
-* ✅ JSON, CRUD operations, Postman testing
+Students build an end-to-end testing solution for:
 
-🛠 Project: Task Manager API
+```text
+Customer
+   ↓
+Login
+   ↓
+Policy Search
+   ↓
+Policy Purchase
+   ↓
+Premium
+   ↓
+Payment
+   ↓
+Claim
+   ↓
+Reports
+```
 
-### **Phase 4: Database & Integration** *(Week 8–9)*
+### Requirement → Test Cases
 
-> "A real app remembers things—let’s wire it to a database."
+```text
+Requirement
+     ↓
+Generative AI
+     ↓
+Test Scenario Suggestions
+     ↓
+Human Review
+     ↓
+Approved Test Cases
+```
 
-* ✅ SQL: Tables, Joins, Queries
-* ✅ Entity Framework / Hibernate / Mongoose
-* ✅ Connecting APIs to DB
-* ✅ Relational thinking from test cases to data models
+### Test → Automation
 
-🛠 Project Upgrade: Connect Task Manager to MySQL/SQL Server
+```text
+Approved Test
+     ↓
+AI Coding Assistant
+     ↓
+Automation Skeleton
+     ↓
+Tester Review
+     ↓
+Executable Test
+```
 
-### **Phase 5: Full-Stack Assembly** *(Week 10)*
+### Failure Analysis
 
-> "You’ve built the parts—now it’s time to connect the frontend and backend."
+```text
+Failed Test
+     ↓
+Logs + Screenshot + DOM + API Response
+     ↓
+AI Failure Analyzer
+     ↓
+Possible Root Causes
+     ↓
+Tester Validation
+     ↓
+Fix / Defect / Test Update
+```
 
-* ✅ AJAX / Fetch APIs
-* ✅ Frontend → Backend → DB flow
-* ✅ Session management & error handling
-* ✅ Git commits, branches, merges
+### AI Test Agent
 
-🛠 Project: Bug Tracker App (your tester soul will love this!)
+```text
+Natural Language
+      ↓
+AI Agent
+      ↓
+Planning
+      ↓
+Tool Selection
+ ┌────┼────┐
+ ↓    ↓    ↓
+UI   API   DB
+Tool Tool Tool
+ └────┼────┘
+      ↓
+Execution
+      ↓
+Evidence
+      ↓
+Report
+```
 
-### **Phase 6: Testing, Debugging, Git, and Deployment** *(Week 11)*
+> **LLM thinks. Tools act. Humans validate.**
 
-> "You’re a tester-turned-developer—quality code is your signature."
+# AI Capabilities Across the Program
 
-* ✅ Unit Testing with xUnit / JUnit/ TestNG / Jest
-* ✅ Browser Automation UI Testing with Selenium / Playwrite / Cypress
-* ✅ GitHub workflow, pull requests
-* ✅ Deploy to Render / AWS / Azure / GCP / Containerized Platform
+| AI Capability        | Testing Application           |
+| -------------------- | ----------------------------- |
+| Generative AI        | Test-case generation          |
+| Prompt Engineering   | Better test instructions      |
+| AI Coding            | Automation development        |
+| AI Code Review       | Framework quality             |
+| Test Data Generation | Positive/negative datasets    |
+| SQL Generation       | Database validation           |
+| API Test Generation  | API automation                |
+| Failure Analysis     | Root-cause assistance         |
+| Log Analysis         | Debugging                     |
+| RAG                  | Project/domain knowledge      |
+| Tool Calling         | Browser/API/DB actions        |
+| AI Agents            | End-to-end testing workflows  |
+| Human-in-the-loop    | Validation and approval       |
+| CI/CD + AI           | Intelligent testing pipelines |
 
-🛠 Final Demo: Deploy your full-stack app live
+# Final Competency
 
-### **Phase 7: Career Acceleration & Showcase** *(Week 12)*
+At the end of 3 months, the question is **not**: “Can you write Selenium, Paywright scripts?” The question becomes: **“Given a business requirement, how would you test it using automation and AI?”** A strong participant should think:
 
-> "Now that you can build, it’s time to be seen."
+```text
+Requirement
+    ↓
+Risk Analysis
+    ↓
+Test Scenarios
+    ↓
+AI-Assisted Test Design
+    ↓
+Choose Test Layer
+ ┌────┼────┐
+ UI  API   DB
+ └────┼────┘
+      ↓
+Automation Framework
+      ↓
+AI-Assisted Coding
+      ↓
+Execution
+      ↓
+AI-Assisted Failure Analysis
+      ↓
+Reporting
+      ↓
+CI/CD
+      ↓
+Continuous Improvement
+```
 
-* ✅ Resume Rewrite: From QA to Full-Stack Engineer
-* ✅ LinkedIn Profile Optimization
-* ✅ GitHub Project Showcase & Walkthrough
-* ✅ Mock Interviews & Code Reviews
-* ✅ Final Graduation Pitch: Present Your App
+## Transflower Mentor Positioning
 
-## 🧭 TAP Highlights
+> **We are not teaching manual testers how to use Selenium.**
+> **We are transforming experienced testers into AI-augmented test engineers.**
 
-* ✅ Weekend Sessions (Live + Hands-On)
-* ✅ 3 Capstone Projects
-* ✅ Resume + GitHub Portfolio Ready
-* ✅ Focus on Coding, Building, and Debugging
-* ✅ Mentorship from developers with QA backgrounds
-* ✅ Certificate of Completion + Project Demos
-
-<a href="https://github.com/RaviTambade/weekendjune25/blob/main/notes">Let us get started ...</a>
+**Testing Knowledge → Programming → Automation → Framework Engineering → API/DB → CI/CD → Generative AI → AI Tools → AI Agents → AI-Augmented SDET**
