@@ -226,7 +226,7 @@ Report
 
 # Final Competency
 
-At the end of 3 months, the question is **not**: “Can you write Selenium scripts?” The question becomes: **“Given a business requirement, how would you test it using automation and AI?”** A strong participant should think:
+At the end of 3 months, the question is **not**: “Can you write Selenium, Paywright scripts?” The question becomes: **“Given a business requirement, how would you test it using automation and AI?”** A strong participant should think:
 
 ```text
 Requirement
