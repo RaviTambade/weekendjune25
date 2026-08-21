@@ -6,18 +6,18 @@
 
 **Transflower TAP (Transflower Acceleration Program)** is a hands-on career transformation program designed to help experienced manual testers evolve into **Software Development Engineers in Test (SDETs)**. The program goes beyond traditional automation training by combining **testing fundamentals, programming, UI/API/DB automation, framework engineering, CI/CD, Generative AI, AI-assisted coding, test generation, failure analysis, and AI agents**. Through real-world projects, mentoring, and continuous hands-on practice, learners develop the mindset and engineering skills required to build **reliable, scalable, and AI-augmented software testing solutions**.
 
-**Duration:** 12 Weeks
-**Days:** Saturday + Sunday
-**Time:** 7:00 AM – 10:00 AM
-**Total:** ~80 Hours
-**Audience:** Manual Testers with industry experience
+- **Duration:** 12 Weeks
+- **Days:** Saturday + Sunday
+- **Time:** 7:00 AM – 10:00 AM
+- **Total:** ~80 Hours
+- **Audience:** Manual Testers with industry experience
 
 ### Technology Stack
 
-**Testing:** Selenium / Playwright, TestNG / NUnit, REST API, Postman, SQL
-**Programming:** Java / C# / Python / JavaScript
-**Engineering:** Git, GitHub, Maven / .NET, Jenkins / DevOps
-**AI:** Generative AI, LLMs, Prompt Engineering, AI Coding, Test Generation, Failure Analysis, RAG, Tool Calling, AI Agents, MCP Concepts
+- **Testing:** Selenium / Playwright, TestNG / NUnit, REST API, Postman, SQL
+- **Programming:** Java / C# / Python / JavaScript
+- **Engineering:** Git, GitHub, Maven / .NET, Jenkins / DevOps
+- **AI:** Generative AI, LLMs, Prompt Engineering, AI Coding, Test Generation, Failure Analysis, RAG, Tool Calling, AI Agents, MCP Concepts
 
 
 ## Learning Journey
