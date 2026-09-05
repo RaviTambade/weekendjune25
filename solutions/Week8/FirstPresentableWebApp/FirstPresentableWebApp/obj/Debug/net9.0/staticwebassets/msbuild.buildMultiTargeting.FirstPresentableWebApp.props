@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\FirstPresentableWebApp.props" />
-</Project>

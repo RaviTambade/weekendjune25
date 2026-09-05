@@ -43,13 +43,13 @@ Looks impressive.
 
 But now ask:
 
-> What if the customer's age is 17?
-> What if the policy amount is ₹1 crore?
-> What if the customer already has another policy?
-> What if the premium calculation rounds incorrectly?
-> What if two requests purchase the same policy simultaneously?
-> What if the API is called with malicious input?
-> What if the database is unavailable?
+- What if the customer's age is 17?
+- What if the policy amount is ₹1 crore?
+- What if the customer already has another policy?
+- What if the premium calculation rounds incorrectly?
+- What if two requests purchase the same policy simultaneously?
+- What if the API is called with malicious input?
+- What if the database is unavailable?
 
 AI can generate the implementation. **The Test Engineer defines how we prove that the implementation is trustworthy.**
 
@@ -253,13 +253,7 @@ Python
 Given:
 
 ```text
-Test Failure
-+
-Application Logs
-+
-Stack Trace
-+
-Screenshot
+Test Failure + Application Logs + Stack Trace + Screenshot
 ```
 
 AI can help identify likely causes.
@@ -280,17 +274,7 @@ The modern **SDET — Software Development Engineer in Test** asks:  **“How ca
 A career progression can look like:
 
 ```text
-Manual Tester
-     ↓
-Automation Tester
-     ↓
-Automation Test Engineer
-     ↓
-SDET
-     ↓
-AI-Augmented SDET
-     ↓
-Quality / Test Architect
+Manual Tester -> Automation Tester -> Automation Test Engineer -> SDET -> AI-Augmented SDET -> Quality / Test Architect
 ```
 
 Each stage adds engineering capability.
@@ -384,11 +368,7 @@ Humans vs Automation
 It is:
 
 ```text
-Human Intelligence
-        +
-Automation
-        +
-AI
+Human Intelligence   + Automation  + AI
 ```
 
 ## 🔟 Testing the AI Itself
@@ -396,11 +376,7 @@ AI
 Now we reach an even bigger opportunity. Traditional software:
 
 ```text
-Input
- ↓
-Code
- ↓
-Expected Output
+Input  -> Code -> Expected Output
 ```
 
 Generative AI applications are different.
@@ -408,28 +384,18 @@ Generative AI applications are different.
 For example:
 
 ```text
-User
- ↓
-AI Agent
- ↓
-RAG
- ↓
-Vector Database
- ↓
-LLM
- ↓
-Response
+User -> AI Agent ->  RAG -> Vector Database -> LLM -> Response
 ```
 
 Now the test engineer must ask:
 
-> Is the answer correct?
-> Is the answer grounded in company data?
-> Did the model hallucinate?
-> Did the agent call the correct tool?
-> Did retrieval return the right documents?
-> Is sensitive information exposed?
-> Is the response consistent?
+- Is the answer correct?
+- Is the answer grounded in company data?
+- Did the model hallucinate?
+- Did the agent call the correct tool?
+- Did retrieval return the right documents?
+- Is sensitive information exposed?
+- Is the response consistent?
 
 This creates a new field:
 
